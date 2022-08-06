@@ -13,6 +13,7 @@
 		A3CCB587289EB3FD00054B8E /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCB586289EB3FD00054B8E /* RemoteAddAccountTests.swift */; };
 		A3CCB590289EB4C000054B8E /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CCB56A289EAFD200054B8E /* Domain.framework */; };
 		A3CCB591289EB4C000054B8E /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3CCB56A289EAFD200054B8E /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3CCB596289EC71500054B8E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCB595289EC71500054B8E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A3CCB57A289EB3FC00054B8E /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CCB581289EB3FD00054B8E /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CCB586289EB3FD00054B8E /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
+		A3CCB595289EC71500054B8E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				A3CCB571289EB18600054B8E /* AddAccount.swift */,
 				A3CCB573289EB35A00054B8E /* AccountModel.swift */,
+				A3CCB595289EC71500054B8E /* Model.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CCB596289EC71500054B8E /* Model.swift in Sources */,
 				A3CCB572289EB18600054B8E /* AddAccount.swift in Sources */,
 				A3CCB574289EB35A00054B8E /* AccountModel.swift in Sources */,
 			);
